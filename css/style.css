@@ -1,0 +1,137 @@
+
+body{
+    background-image: url('../images/bg.png');
+    height: 10910px;
+
+}
+/* common styles */
+.container{
+    width:1140px;
+    margin:10 auto;
+    padding-top: 42px;
+    padding-left: 30px;
+}
+/* Quick Links */ 
+#quick-links{
+   background-color: #b47474;
+   height:131px;
+}
+#header{
+    background-color: #355b;
+    height:115px;
+}
+#banner{
+    background-color: #5467;
+    height: 390px;
+    
+}
+#highlight{
+    background-color: #b37474;
+    height: 434px;
+    
+}
+#highlight .f-container{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+#highlight .f-item{
+    background-color: white;
+    flex-basis: 20%;
+    padding:63px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: black 0px 0px 15px ;
+    border-radius:8px;
+}
+#about{
+    background-color:#c474;
+    height: 1043px;
+
+}
+#skills{
+    background-color: #b37474;
+    height: 346px;
+
+}
+#statistics{
+    background-color: lightgreen;
+     height: 283px;
+
+}
+#statistics .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#statistics .f-item{
+    background-color: lightskyblue;
+    flex-basis: 20%;
+    padding:43px;
+    padding-left: 15px;
+    padding-right:15px ;
+    box-shadow: rgba(0, 0, 0, 0.527) 0px 0px 15px ;
+    border-radius:8px;
+}
+#client{
+    background-color: lightskyblue;
+     height: 165px;
+}
+#client .f-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+#client .f-item{
+    background-color: rgb(150, 139, 161);
+    flex-basis: 20;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 15px ;
+    border-radius:8px;
+
+
+}
+#services{
+    background-color: lightslategrey;
+    height: 1220px; 
+}
+#testimonials{
+    background-color: lightsteelblue;
+    height: 570px;
+}
+#portfolio{
+    background: lightyellow;
+    height:1760px;
+
+}
+#team{
+    background: rgb(180, 66, 142);
+    height: 860px;
+}
+#pricing{
+    background: mediumpurple;
+    height: 890px;
+
+}
+#faq{
+    background: mediumturquoise;
+    height: 830px;
+}
+#contact{
+    background: pink;
+    height: 1100px;
+
+}
+#newsletter{
+    background: plum;
+    height: 290px;
+
+
+}
+#footer{
+    background: rgb(170, 62, 170);
+    height: 430px; 
+}
+#legals{
+    background-color: azure;
+    height: 40px;
+}
