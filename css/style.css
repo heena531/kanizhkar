@@ -11,6 +11,48 @@ body{
     padding-top: 42px;
     padding-left: 30px;
 }
+.primary-btn{
+    background-color: #1222;
+    display: inline-block;
+    padding: 12px 22px;
+    color:#ffff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.secondary-btn{
+    color: #000;
+    text-decoration: none;
+}
+.section-title{
+   text-align: center;
+   padding: 60px 5px;
+}
+.section-title h2{
+    font-size: 36px;
+    color:black;
+    margin-bottom: 20px;
+
+}
+.section-title h2 span{
+    color: #106eea;
+}
+.section-title h4 span{
+background-color: rgba(80, 128, 128, 0.623);
+border-radius:15px;
+padding:4px 12px;
+display: inline-block;
+color: #106eea;
+font-size: 13px;
+font-weight: 600;
+
+}
+.section-title h4{
+    padding-bottom:20px;
+
+}
+.section-title p{
+
+}
 /* Quick Links */ 
 #quick-links{
    background-color: #b47474;
@@ -45,7 +87,7 @@ body{
     border-radius:8px;
 }
 #about{
-    background-color:#c474;
+    background-color: #f6f9fe;
     height: 1043px;
 
 }
@@ -73,7 +115,7 @@ body{
     border-radius:8px;
 }
 #client{
-    background-color: lightskyblue;
+    background-color: #f6f9fe;
      height: 165px;
 }
 #client .f-container{
@@ -91,24 +133,33 @@ body{
 
 }
 #services{
-    background-color: lightslategrey;
+    background-color: #f6f9fe;
     height: 1220px; 
+}
+#services .section-title{
+    height: 219px;
+}
+#services .section-content .f-container{
+
+}
+#services .section-content .f-item{
+
 }
 #testimonials{
     background-color: lightsteelblue;
     height: 570px;
 }
 #portfolio{
-    background: lightyellow;
+    background: #f6f6fe;
     height:1760px;
 
 }
 #team{
-    background: rgb(180, 66, 142);
+    background-color: #f6f9fe;
     height: 860px;
 }
 #pricing{
-    background: mediumpurple;
+    background-color: #f6f9fe;
     height: 890px;
 
 }
@@ -117,7 +168,7 @@ body{
     height: 830px;
 }
 #contact{
-    background: pink;
+    background-color: #f6f9fe;
     height: 1100px;
 
 }
