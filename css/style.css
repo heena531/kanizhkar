@@ -140,10 +140,20 @@ font-weight: 600;
     height: 219px;
 }
 #services .section-content .f-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 #services .section-content .f-item{
-
+    background-color: white;
+    flex-basis: 20%;
+    padding:63px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: black 0px 0px 15px ;
+    border-radius:8px;
+    margin-bottom: 70px;
 }
 #testimonials{
     background-color: lightsteelblue;
@@ -164,7 +174,7 @@ font-weight: 600;
 
 }
 #faq{
-    background: mediumturquoise;
+    background: #f6f6fe;
     height: 830px;
 }
 #contact{
@@ -173,7 +183,7 @@ font-weight: 600;
 
 }
 #newsletter{
-    background: plum;
+    background:#f6f6fe;
     height: 290px;
 
 
