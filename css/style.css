@@ -12,7 +12,7 @@ body{
     padding-left: 30px;
 }
 .primary-btn{
-    background-color: #1222;
+    background-color:blue;
     display: inline-block;
     padding: 12px 22px;
     color:#ffff;
@@ -51,24 +51,77 @@ font-weight: 600;
 
 }
 .section-title p{
-
+  padding-bottom: 20px;
+  
 }
 /* Quick Links */ 
 #quick-links{
    background-color: #b47474;
    height:131px;
 }
+#quick-links .f-container{
+   display: flex;
+   justify-content: space-between;
+}
+#quick-links .f-container .f-item{
+
+}
 #header{
     background-color: #355b;
     height:115px;
 }
+#header .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#header .f-container .f-item{
+
+}
 #banner{
-    background-color: #5467;
+    background:url('../images/hero-bg.jpg');
     height: 390px;
-    
+    background-size: cover;
+    position: relative;
+}
+#banner .white-overlay{
+    position:absolute;
+    background:rgb(255,255,255,0.6);
+    bottom:0;
+    top:0;
+    left:0;
+    left:0;
+    right:0;
+}
+
+#banner .f-container{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+#banner h1{
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'poppi ns', sans-serif;
+    padding-bottom: 5%;
+
+}
+#banner h1 span{
+    color: #106eea;
+}
+#banner p{
+    font-size:25px; 
+    padding-bottom: 5%;
+}
+#banner .cta-wrapper{}
+#banner .cta-wrapper a{}
+#banner .cta-wrapper a.primary-btn{
+    margin-right: 10px;
+}
+#banner .cta-wrapper a.secondary-btn{
+
 }
 #highlight{
-    background-color: #b37474;
+    background-color: #f6f6fe;
     height: 434px;
     
 }
@@ -97,7 +150,7 @@ font-weight: 600;
 
 }
 #statistics{
-    background-color: lightgreen;
+    background-color: #f6f6fe;
      height: 283px;
 
 }
@@ -137,7 +190,7 @@ font-weight: 600;
     height: 1220px; 
 }
 #services .section-title{
-    height: 219px;
+    height: 100px;
 }
 #services .section-content .f-container{
     display: flex;
@@ -147,13 +200,13 @@ font-weight: 600;
 }
 #services .section-content .f-item{
     background-color: white;
-    flex-basis: 20%;
-    padding:63px;
-    padding-right: 15px;
-    padding-left: 15px;
+    flex-basis: 25%;
+    padding:175px;
+    padding-right: 50pxpx;
+    padding-left: 20px;
     box-shadow: black 0px 0px 15px ;
     border-radius:8px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 #testimonials{
     background-color: lightsteelblue;
@@ -182,11 +235,34 @@ font-weight: 600;
     height: 1100px;
 
 }
-#newsletter{
+#contact .section-title{
+    height: 125px;
+}
+#contact .section-content{
+
+}
+#contact .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .f-item{
+    flex-basis: center;
+}
+#contact .f-item.size-a{
+    flex-basis: 50%;
+}
+#contact .f-item.size-z{
+    flex-basis: 25%;
+}
+#contact .section-content .f-container{
+
+}
+#contact .section-content .f-item{
+
+}
+#Newsletter{
     background:#f6f6fe;
     height: 290px;
-
-
 }
 #footer{
     background: rgb(170, 62, 170);
