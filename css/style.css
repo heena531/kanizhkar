@@ -8,8 +8,8 @@ body{
 .container{
     width:1140px;
     margin:10 auto;
-    padding-top: 42px;
-    padding-left: 30px;
+    padding-top: 45px;
+    padding-left: 120px;
 }
 .primary-btn{
     background-color:blue;
