@@ -54,6 +54,10 @@ font-weight: 600;
   padding-bottom: 20px;
   
 }
+.progress{
+    line-height: 0;
+    font-size:.75rem;
+}
 /* Quick Links */ 
 #quick-links{
    background-color: #b47474;
@@ -126,18 +130,42 @@ font-weight: 600;
     
 }
 #highlight .f-container{
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
 }
 #highlight .f-item{
+    width: 330px;
+    height: 246px;
     background-color: white;
     flex-basis: 20%;
-    padding:63px;
+    padding:60px;
     padding-right: 15px;
     padding-left: 15px;
     box-shadow: black 0px 0px 15px ;
     border-radius:8px;
+}
+#highlight .icon{
+    margin-bottom: 10px;
+}
+#highlight .bx{
+        font-family: 'boxicons'!important;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        display: inline-block;
+        text-transform: none;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+}
+#highlight .f-item .icon{
+    padding: 40px; 
+}
+#highlight .f-item .icon i{
+    color:#3b8af2;
+    font-size:28px;
+    transition: ease-in-out 0.3s;
 }
 #about{
     background-color: #f6f9fe;
@@ -145,9 +173,42 @@ font-weight: 600;
 
 }
 #skills{
-    background-color: #b37474;
+    background-color: #f6f6fe;
     height: 346px;
 
+}
+#skills .f-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#skills .f-item{
+    width: 415px;
+}
+#skills .progress{
+    height: 50px;
+    display: block;
+}
+#skills .progress .skill{
+    padding: 10px 0;
+    margin:0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+    color: #222222;
+}
+#skills .progress-bar-wrap{
+    background: #e2eefd;
+}
+#skills .progress-bar{
+    height: 10px;
+    transition: .9s;
+    background-color: #106eea;
+}
+#skills .progress .skill .val{
+    float: right;
+    font-style: normal;
 }
 #statistics{
     background-color: #f6f6fe;
@@ -175,13 +236,18 @@ font-weight: 600;
     display: flex;
     justify-content: space-around;
 
+
+}
+#client .f-item img{
+    max-width: 80%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
 }
 #client .f-item{
-    background-color: rgb(150, 139, 161);
-    flex-basis: 20;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 15px ;
-    border-radius:8px;
+    align-items: center;
+    justify-content: center;
+    height: 98px;
 
 
 }
@@ -199,18 +265,47 @@ font-weight: 600;
 
 }
 #services .section-content .f-item{
+    width: 330px;
+    height: 337px;
     background-color: white;
     flex-basis: 25%;
-    padding:75px;
+    padding:45px;
     padding-right: 20px;
     padding-left: 20px;
     box-shadow: black 0px 0px 15px ;
     border-radius:8px;
     margin-bottom: 60px;
+    text-align: center;
+}
+#services .section-content .icon{
+    margin-bottom: 15px;
+    width: 64px;
+    height: 64px;
+}
+#services .section-content .bx{
+        font-family: 'boxicons'!important;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        display: inline-block;
+        text-transform: none;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+}
+#services .section-content .f-item .icon{
+    padding: 100px;
+    padding-bottom: 10px; 
+}
+#services .section-content .f-item .icon i{
+    color:#3b8af2;
+    font-size:28px;
+    transition: ease-in-out 0.3s;
 }
 #testimonials{
-    background-color: lightsteelblue;
+    background:url('../images/testimonials-bg.jpg');
     height: 570px;
+    background-size: cover;
 }
 #portfolio{
     background: #f6f6fe;
@@ -260,9 +355,39 @@ font-weight: 600;
 #contact .section-content .f-item{
 
 }
-#Newsletter{
+#newsletter{
     background:#f6f6fe;
-    height: 290px;
+    height: 310px;
+}
+#newsletter .section-title form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+    text-align: left;
+
+}
+#newsletter .section-title form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(80% - 80px);
+}
+#newsletter .section-title form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #106eea;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer{
     background: rgb(170, 62, 170);
