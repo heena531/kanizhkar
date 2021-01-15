@@ -8,7 +8,7 @@ body{
 .container{
     width:1140px;
     margin:10 auto;
-    padding-top: 45px;
+    padding-top: 40px;
     padding-left: 120px;
 }
 .primary-btn{
@@ -325,6 +325,40 @@ font-weight: 600;
     background: #f6f6fe;
     height: 830px;
 }
+#faq .section-content{
+    padding:0;
+    list-style: none;
+}
+#faq .section-content a.collapsed{
+    color: #343a40;
+}
+#faq .section-content a{
+    display:block;
+    position:relative;
+    font-size:18px;
+    font-weight: 500;
+}
+#faq .section-content a.collapsed:hover{
+    color:#106eea;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+#faq i.icofont-simple-up{
+    font-family: IcoFont!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
 #contact{
     background-color: #f6f9fe;
     height: 1100px;
@@ -345,15 +379,77 @@ font-weight: 600;
 }
 #contact .f-item.size-a{
     flex-basis: 50%;
+    box-shadow: 0 0 30px rgba{214, 215, 216, 0.3};
+    padding:20px 0 30px 0;
+}
+#contact .f-item.size-a i{
+    font-size:32px;
+    color:#106eea;
+    border-radius: 50%;
+    padding:8px;
+    border:2px dotted #b3d1fa;
+}
+#contact ,.section-content .bx{
+    font-family: 'boxicons'!important;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        display: inline-block;
+        text-transform: none;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
 }
 #contact .f-item.size-z{
     flex-basis: 25%;
+    text-align:center;
+    box-shadow: 0 0 30px rgba(213, 213, 214, 0.3 );
+    padding:20px 0 30px 0;
+}
+#contact .f-item.size-z i{
+    font-size:32px;
+    color:#106eea;
+    border-radius: 50%;
+    padding:8px;
+    border:2px dotted #b3d1fa;
 }
 #contact .section-content .f-container{
 
 }
 #contact .section-content .f-item{
 
+}
+#contact .php-email-form{
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+    padding:30px;
+}
+#contact .form-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .colform-group{
+    width: 320px;
+    height: 42px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#contact .form-group{
+    width: 630px;
+    height: 42px;
+    margin-bottom:1rem
+}
+#contact .text-center{
+    width: 630px;
+    height: 44px;
+    text-align: center!important;
+}
+#contact .php-email-form button{
+    background: #106eea;
+    border: 0;
+    padding:10px 30px;
+    color: #fff;
+    transition:0.4s;
+    border-radius: 4px;
 }
 #newsletter{
     background:#f6f6fe;
@@ -390,10 +486,87 @@ font-weight: 600;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer{
-    background: rgb(170, 62, 170);
+    background: #f6f6fe;
     height: 430px; 
+}
+#footer .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#footer .f-item{
+    margin-bottom: 30px;
+}
+#footer .f-item h3{
+    font-size:24px;
+    margin:0 0 15px 0;
+    padding:2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .f-item p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom:0;
+    font-family:"roboto", sans-serif;
+    color:#777777;
+}
+#footer .f-item ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#footer .f-item ul i{
+    padding-right: 2px;
+    color:#106eea;
+    font-size: 18px;
+    line-height: 1;
+}
+#footer .bx{
+    font-family: 'boxicons'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+#footer .f-item ul a{
+    color:#777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+#footer .social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: #106eea;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#footer h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
 }
 #legals{
     background-color: azure;
     height: 40px;
+}
+#legales .f-container{
+    display: flex;
+   justify-content: space-between; 
+}
+#legales .f-item{
+
 }
