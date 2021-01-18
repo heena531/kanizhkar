@@ -2,7 +2,10 @@
 body{
     /*background-image: url('../images/bg.png');*/
     height: 10910px;
-
+    font-family: "open sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "roboto", sans-serif;
 }
 /* common styles */
 .container{
@@ -58,6 +61,9 @@ font-weight: 600;
     line-height: 0;
     font-size:.75rem;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+} 
 /* Quick Links */ 
 #quick-links{
    background-color: #b47474;
@@ -130,23 +136,31 @@ font-weight: 600;
     
 }
 #highlight .f-container{
-    height: 300px;
     display: flex;
     justify-content: space-around;
 }
 #highlight .f-item{
     width: 330px;
-    height: 246px;
+    height: 160px;
     background-color: white;
     flex-basis: 20%;
-    padding:60px;
     padding-right: 15px;
     padding-left: 15px;
-    box-shadow: black 0px 0px 15px ;
+    box-shadow: rgb(255,255,255,0.6) 0px 0px 15px ;
     border-radius:8px;
 }
 #highlight .icon{
-    margin-bottom: 10px;
+    margin-bottom: :15px;
+}
+#highlight .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#highlight .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
 }
 #highlight .bx{
         font-family: 'boxicons'!important;
@@ -160,7 +174,7 @@ font-weight: 600;
         -webkit-font-smoothing: antialiased;
 }
 #highlight .f-item .icon{
-    padding: 40px; 
+    padding: 20px; 
 }
 #highlight .f-item .icon i{
     color:#3b8af2;
@@ -222,10 +236,10 @@ font-weight: 600;
 #statistics .f-item{
     background-color: lightskyblue;
     flex-basis: 20%;
-    padding:43px;
+    padding: 43px;
     padding-left: 15px;
     padding-right:15px ;
-    box-shadow: rgba(0, 0, 0, 0.527) 0px 0px 15px ;
+    box-shadow: rgb(0,0,0,0.525) 0px 0px 15px ;
     border-radius:8px;
 }
 #client{
@@ -269,10 +283,9 @@ font-weight: 600;
     height: 337px;
     background-color: white;
     flex-basis: 25%;
-    padding:45px;
     padding-right: 20px;
     padding-left: 20px;
-    box-shadow: black 0px 0px 15px ;
+    box-shadow: rgb(255,255,255,0.6) 0px 0px 15px ;
     border-radius:8px;
     margin-bottom: 60px;
     text-align: center;
